@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  z-index: 999;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  height: 40px;
+  margin-right: 20px;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #003399;
+  font-weight: bold;
+}
+
+.servicio {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenido {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 700px;
+}
+
+.contenido h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contenido p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #003399;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #001f66;
+}
